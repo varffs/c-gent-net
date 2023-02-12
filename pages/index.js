@@ -2,6 +2,8 @@ import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 
+import { useState } from 'react';
+
 import * as fs from 'node:fs/promises';
 import path from 'path'
 
@@ -10,7 +12,16 @@ import remarkGfm from 'remark-gfm'
 
 const inter = Inter({ subsets: ['latin'] })
 
+import Section from '../components/Section'
+
 function Home({ sections, header, contact, metadata }) {
+  const [activeIndex, setActiveIndex] = useState(false);
+
+  function handleActiveTrigger(index) {
+    console.log(index)
+    setActiveIndex(index)
+  }
+
   return (
     <>
       <Head>
@@ -25,11 +36,9 @@ function Home({ sections, header, contact, metadata }) {
         </header>
         <section className={styles.content}>
           {sections.map((section, index) => (
-            <div key={index}>
-              <h2>{section.title}</h2>
-              <ReactMarkdown className={styles.sectionTeaser} children={section.teaser} remarkPlugins={[remarkGfm]} />
-              <ReactMarkdown className={styles.sectionContent} children={section.content} remarkPlugins={[remarkGfm]} />
-            </div>
+            <Section data={section} isActive={activeIndex === index ? true : false} key={index} onClick={() => {
+              handleActiveTrigger(index)
+            }} />
           ))}
         </section>
         <section className={styles.contact}>
