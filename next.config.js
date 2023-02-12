@@ -4,6 +4,9 @@ const isProd = process.env.NODE_ENV === 'production'
 const nextConfig = {
   reactStrictMode: true,
   basePath: isProd ?  '/c-gent-net' : '',
+  images: {
+    unoptimized: true,
+  },
 }
 
 module.exports = nextConfig
