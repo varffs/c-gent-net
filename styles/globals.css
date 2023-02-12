@@ -1,5 +1,5 @@
 :root {
-  --max-width: 900px;
+  --max-width: 740px;
 }
 
 * {
@@ -10,8 +10,32 @@
 
 html,
 body {
+  font-size: 18px;
+  line-height: 1.45;
+  letter-spacing: 0.005rem;
   max-width: 100vw;
   overflow-x: hidden;
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    margin-right: 300px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+html,
+  body {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  html,
+  body {
+    font-size: 15px;
+  }
 }
 
 body {
@@ -22,4 +46,8 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1rem;
 }

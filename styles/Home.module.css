@@ -6,6 +6,7 @@
 
 .main a {
   text-decoration: underline;
+  text-decoration-thickness: from-font;
 }
 
 .main a:hover {
@@ -13,21 +14,22 @@
 }
 
 .header {
-  margin-bottom: 3rem;
-}
-
-.content p {
-  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 5rem;
 }
 
 .contact {
-  margin-top: 3rem;
+  margin-top: 5rem;
+}
+
+.section {
+  margin-bottom: 1rem;
 }
 
 .sectionTeaser {
 
 }
 
-.sectionContent {
-
+.sectionContent p {
+  margin-bottom: 1rem;
 }
