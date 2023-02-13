@@ -19,6 +19,17 @@ function Home({ sections, header, contact, metadata }) {
 
   function handleActiveTrigger(index) {
     setActiveIndex(index)
+
+    const selector = `.${styles.section}:nth-child(${index + 1})`
+
+    window.setTimeout(() => {
+      const scrollPosition = window.pageYOffset + document.querySelector(selector).getBoundingClientRect().top - parseFloat(getComputedStyle(document.documentElement).fontSize)
+
+      window.scrollTo({
+        top: scrollPosition,
+        behavior: 'smooth'
+      });
+    }, 250)
   }
 
   return (
