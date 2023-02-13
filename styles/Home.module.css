@@ -1,30 +1,44 @@
 .main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
-}
-
-.description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
   max-width: var(--max-width);
-  width: 100%;
-  z-index: 2;
+  margin: 1rem auto;
+  padding: 2rem;
 }
 
-.description a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
+.main a {
+  text-decoration: underline;
+  text-decoration-thickness: from-font;
 }
 
-.description p {
-  position: relative;
-  margin: 0;
-  padding: 1rem;
+.main a:hover {
+  text-decoration: none;
+}
+
+.header {
+  font-size: 1.2rem;
+  margin-bottom: 5rem;
+}
+
+.contact {
+  margin-top: 5rem;
+}
+
+.section {
+  margin-bottom: 1rem;
+}
+
+.section:not(.sectionActive):hover {
+  cursor: pointer;
+}
+
+.section:hover .sectionReadmore {
+  text-decoration: underline;
+  text-decoration-thickness: from-font;
+}
+
+.sectionTeaser {
+
+}
+
+.sectionContent p {
+  margin-bottom: 1rem;
 }
