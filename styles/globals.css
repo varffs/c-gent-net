@@ -39,8 +39,8 @@ html,
 }
 
 body {
-  color: white;
-  background: black;
+  color: rgb(251, 251, 251);
+  background: #2B2B2B;
 }
 
 a {
