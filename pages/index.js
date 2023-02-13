@@ -42,7 +42,9 @@ function Home({ sections, header, contact, metadata }) {
       </Head>
       <main className={[inter.className, styles.main].join(" ")}>
         <header className={styles.header}>
-          <ReactMarkdown children={header} remarkPlugins={[remarkGfm]} />
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>
+            {header}
+          </ReactMarkdown>
         </header>
         <section className={styles.content}>
           {sections.map((section, index) => (
@@ -52,7 +54,9 @@ function Home({ sections, header, contact, metadata }) {
           ))}
         </section>
         <section className={styles.contact}>
-          <ReactMarkdown children={contact} remarkPlugins={[remarkGfm]} />
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>
+            {contact}
+          </ReactMarkdown>
         </section>
       </main>
     </>
