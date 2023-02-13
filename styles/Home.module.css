@@ -26,6 +26,15 @@
   margin-bottom: 1rem;
 }
 
+.section:not(.sectionActive):hover {
+  cursor: pointer;
+}
+
+.section:hover .sectionReadmore {
+  text-decoration: underline;
+  text-decoration-thickness: from-font;
+}
+
 .sectionTeaser {
 
 }

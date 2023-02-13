@@ -18,7 +18,6 @@ function Home({ sections, header, contact, metadata }) {
   const [activeIndex, setActiveIndex] = useState(false);
 
   function handleActiveTrigger(index) {
-    console.log(index)
     setActiveIndex(index)
   }
 
