@@ -27,7 +27,7 @@
 }
 
 .section p {
-  color: rgb(186, 176, 176);
+  color: var(--color-text-softened);
 }
 
 .section.sectionActive p {

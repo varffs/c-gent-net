@@ -1,0 +1,21 @@
+.worksList {
+  margin-top: 5rem;
+}
+
+.worksListContent.worksListContentShort .worksListItem:nth-child(n+4) {
+  display: none;
+}
+
+.worksListItem a {
+  color: var(--color-text-softened);
+}
+
+.worksListItem a:hover {
+  color: inherit;
+}
+
+.worksListSeeMore:hover {
+  text-decoration: underline;
+  text-decoration-thickness: from-font;
+  cursor: pointer;
+}

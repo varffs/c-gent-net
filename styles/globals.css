@@ -1,5 +1,7 @@
 :root {
   --max-width: 740px;
+  --color-text: rgb(237, 223, 223);
+  --color-text-softened: rgb(186, 176, 176);
 }
 
 * {

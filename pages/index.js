@@ -13,23 +13,27 @@ import remarkGfm from 'remark-gfm'
 const inter = Inter({ subsets: ['latin'] })
 
 import Section from '../components/Section'
+import WorksList from "../components/WorksList";
 
-function Home({ sections, header, contact, metadata }) {
+function Home({ sections, header, contact, metadata, worksList }) {
   const [activeIndex, setActiveIndex] = useState(false);
 
   function handleActiveTrigger(index) {
-    setActiveIndex(index)
+    setActiveIndex(index);
 
-    const selector = `.${styles.section}:nth-child(${index + 1})`
+    const selector = `.${styles.section}:nth-child(${index + 1})`;
 
     window.setTimeout(() => {
-      const scrollPosition = window.pageYOffset + document.querySelector(selector).getBoundingClientRect().top - parseFloat(getComputedStyle(document.documentElement).fontSize)
+      const scrollPosition =
+        window.pageYOffset +
+        document.querySelector(selector).getBoundingClientRect().top -
+        parseFloat(getComputedStyle(document.documentElement).fontSize);
 
       window.scrollTo({
         top: scrollPosition,
-        behavior: 'smooth'
+        behavior: "smooth",
       });
-    }, 250)
+    }, 250);
   }
 
   return (
@@ -42,25 +46,27 @@ function Home({ sections, header, contact, metadata }) {
       </Head>
       <main className={[inter.className, styles.main].join(" ")}>
         <header className={styles.header}>
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>
-            {header}
-          </ReactMarkdown>
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>{header}</ReactMarkdown>
         </header>
         <section className={styles.content}>
           {sections.map((section, index) => (
-            <Section data={section} isActive={activeIndex === index ? true : false} key={index} onClick={() => {
-              handleActiveTrigger(index)
-            }} />
+            <Section
+              data={section}
+              isActive={activeIndex === index ? true : false}
+              key={index}
+              onClick={() => {
+                handleActiveTrigger(index);
+              }}
+            />
           ))}
         </section>
+        <WorksList worksList={worksList} />
         <section className={styles.contact}>
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>
-            {contact}
-          </ReactMarkdown>
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>{contact}</ReactMarkdown>
         </section>
       </main>
     </>
-  )
+  );
 }
 
 // This function gets called at build time on server-side.
@@ -88,8 +94,15 @@ export async function getStaticProps() {
 
   const headerFileContents = await fs.readFile(path.join(process.cwd(), 'content/header.md'), 'utf8')
   const contactFileContents = await fs.readFile(path.join(process.cwd(), 'content/contact.md'), 'utf8')
+
   const metadataFileContents = await fs.readFile(path.join(process.cwd(), 'content/metadata.json'), 'utf8')
   const metadata = JSON.parse(metadataFileContents)
+
+  const worksListFileContents = await fs.readFile(
+    path.join(process.cwd(), "content/works-list.json"),
+    "utf8"
+  );
+  const worksList = JSON.parse(worksListFileContents);  
 
   // By returning { props: { posts } }, the Blog component
   // will receive `posts` as a prop at build time
@@ -98,9 +111,10 @@ export async function getStaticProps() {
       sections: await Promise.all(sections),
       header: headerFileContents,
       contact: contactFileContents,
-      metadata
+      metadata,
+      worksList,
     },
-  }
+  };
 }
 
 export default Home
