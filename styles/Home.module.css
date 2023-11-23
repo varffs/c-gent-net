@@ -23,11 +23,23 @@
 }
 
 .section {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.section p {
+  color: rgb(186, 176, 176);
+}
+
+.section.sectionActive p {
+  color: inherit;
 }
 
 .section:not(.sectionActive):hover {
   cursor: pointer;
+}
+
+.section:not(.sectionActive):hover p {
+  color: inherit;
 }
 
 .section:hover .sectionReadmore {

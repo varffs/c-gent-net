@@ -17,6 +17,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 @media only screen and (min-width: 1200px) {
   body {
     margin-right: 300px;
@@ -39,8 +43,8 @@ html,
 }
 
 body {
-  color: rgb(251, 251, 251);
-  background: #2B2B2B;
+  color: rgb(237, 223, 223);
+  background: #323232;
 }
 
 a {
