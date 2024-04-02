@@ -62,6 +62,14 @@ function Home({ sections, header, contact, metadata, worksList }) {
         </section>
         <WorksList worksList={worksList} />
         <section className={styles.contact}>
+          <iframe
+            src="https://cgent.substack.com/embed"
+            width="100%"
+            height="320"
+            style={{ border: "1px", solid: "#EEE", background: "white" }}
+            frameborder="0"
+            scrolling="no"
+          ></iframe>
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{contact}</ReactMarkdown>
         </section>
       </main>
