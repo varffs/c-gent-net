@@ -8,7 +8,7 @@ export default function WorksList({ worksList }) {
   return (
     <section className={styles.worksList}>
       <div className={styles.worksListTitle}>
-        <h2>Recent work</h2>
+        <h2>Recent work, in all its diversity</h2>
       </div>
       <div
         className={
@@ -28,7 +28,7 @@ export default function WorksList({ worksList }) {
             );
           })}
         </ul>
-        {worksList.length > 3 && isFull === false && (
+        {worksList.length > 5 && isFull === false && (
           <div
             className={styles.worksListSeeMore}
             onClick={() => {

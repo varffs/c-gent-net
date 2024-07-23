@@ -1,1 +1,0 @@
-My first book, an analysis of algorithmic power in workplaces, is forthcoming with Verso. I also write about film, politics and more across the internet.

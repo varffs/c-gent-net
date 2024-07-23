@@ -1,1 +1,0 @@
-I’m Head of Operations at Novara Media, an independent media outlet that aims to address the defining challenges of the 21st century. I was formerly a senior editor.
