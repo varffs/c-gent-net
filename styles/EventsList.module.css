@@ -1,0 +1,11 @@
+.eventsList {
+  margin-top: 0;
+}
+
+.eventsListItem a {
+  color: var(--color-text-softened);
+}
+
+.eventsListItem a:hover {
+  color: inherit;
+}

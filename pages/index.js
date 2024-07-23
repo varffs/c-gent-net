@@ -14,8 +14,9 @@ const inter = Inter({ subsets: ['latin'] })
 
 import Section from '../components/Section'
 import WorksList from "../components/WorksList";
+import EventsList from "../components/EventsList";
 
-function Home({ sections, header, contact, metadata, worksList }) {
+function Home({ sections, header, contact, metadata, worksList, eventsList }) {
   const [activeIndex, setActiveIndex] = useState(false);
 
   function handleActiveTrigger(index) {
@@ -60,18 +61,19 @@ function Home({ sections, header, contact, metadata, worksList }) {
             />
           ))}
         </section>
-        <WorksList worksList={worksList} />
         <section className={styles.contact}>
+          <h2>Events and keeping in touch</h2>
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>{contact}</ReactMarkdown>
           <iframe
             src="https://cgent.substack.com/embed"
             width="100%"
             height="320"
             style={{ border: "1px", solid: "#EEE", background: "white" }}
             frameborder="0"
-            scrolling="no"
           ></iframe>
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>{contact}</ReactMarkdown>
+          <EventsList eventsList={eventsList} />
         </section>
+        <WorksList worksList={worksList} />
       </main>
     </>
   );
@@ -112,6 +114,12 @@ export async function getStaticProps() {
   );
   const worksList = JSON.parse(worksListFileContents);  
 
+  const eventsListFileContents = await fs.readFile(
+    path.join(process.cwd(), "content/events-list.json"),
+    "utf8"
+  );
+  const eventsList = JSON.parse(eventsListFileContents);
+
   // By returning { props: { posts } }, the Blog component
   // will receive `posts` as a prop at build time
   return {
@@ -121,6 +129,7 @@ export async function getStaticProps() {
       contact: contactFileContents,
       metadata,
       worksList,
+      eventsList,
     },
   };
 }
