@@ -1,1 +1,1 @@
-I’m a scholar of digital media and culture, and the author of *Cyberboss: The Rise of Algorithmic Management and the...*
+I’m a scholar of digital media and culture, and the author of *Cyberboss: The Rise of Algorithmic Management and the New Struggle for Control at Work* (Verso Books).
