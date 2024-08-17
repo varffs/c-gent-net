@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 
 import * as fs from 'node:fs/promises';
 import path from 'path'
@@ -15,12 +15,19 @@ const inter = Inter({ subsets: ['latin'] })
 import Section from '../components/Section'
 import WorksList from "../components/WorksList";
 import EventsList from "../components/EventsList";
+import ImagesList from "../components/ImagesList";
 
-function Home({ sections, header, contact, metadata, worksList, eventsList }) {
+function Home({ sections, header, contact, metadata, worksList, eventsList, imagesList }) {
   const [activeIndex, setActiveIndex] = useState(false);
 
-  function handleActiveTrigger(index) {
+  const imagesListRef = useRef()
+
+  const handleActiveTrigger = (index) => {
     setActiveIndex(index);
+
+    if (imagesListRef.current) {
+      imagesListRef.current.setActiveImage(null)
+    }
 
     const selector = `.${styles.section}:nth-child(${index + 1})`;
 
@@ -49,6 +56,7 @@ function Home({ sections, header, contact, metadata, worksList, eventsList }) {
         <header className={styles.header}>
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{header}</ReactMarkdown>
         </header>
+        <ImagesList ref={imagesListRef} imagesList={imagesList} />
         <section className={styles.content}>
           {sections.map((section, index) => (
             <Section
@@ -69,7 +77,6 @@ function Home({ sections, header, contact, metadata, worksList, eventsList }) {
             width="100%"
             height="320"
             style={{ border: "1px", solid: "#EEE", background: "white" }}
-            frameBorder="0"
           ></iframe>
           <EventsList eventsList={eventsList} />
         </section>
@@ -102,6 +109,19 @@ export async function getStaticProps() {
     }
   })
 
+  const imagesDirectory = path.join(process.cwd(), 'public/images')
+  const images = await fs.readdir(imagesDirectory, {withFileTypes: true})
+
+  const imagesList = images.map((image) => {
+    const imageFilePath = path.join(imagesDirectory, image.name)
+  
+    return {
+      name: image.name,
+      path: imageFilePath,
+      url: `/images/${image.name}`
+    }
+  })
+
   const headerFileContents = await fs.readFile(path.join(process.cwd(), 'content/header.md'), 'utf8')
   const contactFileContents = await fs.readFile(path.join(process.cwd(), 'content/contact.md'), 'utf8')
 
@@ -130,6 +150,7 @@ export async function getStaticProps() {
       metadata,
       worksList,
       eventsList,
+      imagesList,
     },
   };
 }
