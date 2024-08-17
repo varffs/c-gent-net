@@ -2,6 +2,10 @@
   margin-top: 0;
 }
 
+.eventsListTitle {
+  font-weight: bold;
+}
+
 .eventsListItem a {
   color: var(--color-text-softened);
 }

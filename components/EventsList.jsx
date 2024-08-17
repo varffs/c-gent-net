@@ -5,7 +5,7 @@ export default function EventsList({ eventsList }) {
     <section className={styles.eventsList}>
       {eventsList.length > 0 && (
         <>
-          <div className={styles.eventsListTitle}>Upcoming events include:</div>
+          <div className={styles.eventsListTitle}>Upcoming events include</div>
           <div className={styles.eventsListContent}>
             <ul>
               {eventsList.map((item, index) => {

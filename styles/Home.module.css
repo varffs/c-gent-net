@@ -15,11 +15,11 @@
 
 .header {
   font-size: 1.2rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .contact {
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .section {
@@ -40,6 +40,10 @@
 
 .section:not(.sectionActive):hover p {
   color: inherit;
+}
+
+.sectionReadmore {
+  margin-top: .25rem;
 }
 
 .section:hover .sectionReadmore {

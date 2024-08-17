@@ -69,7 +69,7 @@ function Home({ sections, header, contact, metadata, worksList, eventsList }) {
             width="100%"
             height="320"
             style={{ border: "1px", solid: "#EEE", background: "white" }}
-            frameborder="0"
+            frameBorder="0"
           ></iframe>
           <EventsList eventsList={eventsList} />
         </section>
