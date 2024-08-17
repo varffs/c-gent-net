@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { useRouter } from "next/router";
 
 import styles from "@/styles/ImagesList.module.css";
 
@@ -8,7 +7,8 @@ import { useState, forwardRef, useImperativeHandle } from "react";
 const ImagesList = forwardRef(function ImagesList({ imagesList }, ref) {
   const [activeImage, setActiveImage] = useState(false);
 
-  const router = useRouter();
+  const isProd = process.env.NODE_ENV === "production";
+  const basePath = isProd ? "/c-gent-net" : "";
 
   const handleClick = (index) => {
     if (activeImage === index) {
@@ -37,7 +37,7 @@ const ImagesList = forwardRef(function ImagesList({ imagesList }, ref) {
           onClick={() => handleClick(index)}
         >
           <Image
-            src={`${router.basePath}${image.url}`}
+            src={`${basePath}${image.url}`}
             alt={image.name}
             width={500}
             height={500}
