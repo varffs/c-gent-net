@@ -7,8 +7,9 @@ import { useState, forwardRef, useImperativeHandle } from "react";
 const ImagesList = forwardRef(function ImagesList({ imagesList }, ref) {
   const [activeImage, setActiveImage] = useState(false);
 
-  const isProd = process.env.NODE_ENV === "production";
-  const basePath = isProd ? "/c-gent-net" : "";
+  // const isProd = process.env.NODE_ENV === "production";
+  // const basePath = isProd ? "/c-gent-net" : "";
+  const basePath = "";
 
   const handleClick = (index) => {
     if (activeImage === index) {
