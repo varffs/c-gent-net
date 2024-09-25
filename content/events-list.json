@@ -1,21 +1,26 @@
 [
   {
-    "title": "10 September. Leeds. Cyberboss launch event. Hyde Park Book Club. [Tickets]",
-    "url": "https://www.hydeparkbookclub.co.uk/arts-liter/2024/8/27/cyberboss-in-conversation-with-craig-gent",
-    "date": "30 Sep 23"
-  },
-  {
-    "title": "21 September. London. 'The Promise and Danger of the Algorithm' (with Aaron Bastani). HowTheLightGetsIn festival. [20% off with code 'NML24']",
-    "url": "https://howthelightgetsin.org/festivals/london/festival-passes",
-    "date": "27 Apr 23"
-  },
-  {
     "title": "22 October. London. Cyberboss launch event (hosted by the Autonomy Institute). Pelican House. [RSVP]",
     "url": "https://actionnetwork.org/events/book-launch-craig-gent-cyberboss-the-rise-of-algorithmic-management-and-the-new-struggle-for-control-at-work",
     "date": "8 Mar 22"
   },
+    {
+    "title": "6 November. Sheffield. Cyberboss book event. Centre for Digital Work, University of Sheffield.",
+    "url": "",
+    "date": "8 Mar 22"
+  },
+    {
+    "title": "13 November. Oslo. Cyberboss book discussion. Work Research Institute, Oslo Metropolitan University.",
+    "url": "",
+    "date": "8 Mar 22"
+  },
   {
     "title": "27 November. Leeds. 'AI and the future (and present) of work'. Leeds Trades Union Council.",
+    "url": "",
+    "date": "30 Sep 23"
+  },
+    {
+    "title": "4 December. Online. 'Cyberboss: The Power of the Algorithm at Work'. CDI-TV.",
     "url": "",
     "date": "30 Sep 23"
   }
