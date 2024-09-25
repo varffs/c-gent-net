@@ -1,6 +1,6 @@
-I have over ten years’ experience as a media practitioner. For over ten years, I have been a senior editor and journalist at [Novara Media](https://novaramedia.com), where I am a director.
+I have over ten years’ experience as a media practitioner. For eleven years, I was a senior editor and journalist at [Novara Media](https://novaramedia.com), where I was a director.
 
-In my current role as North of England Editor, I write about shifts in the organisation of life and work for working-class people between the Trent and the border, and consider what it means for the political forms needed to bring about changes in British society.
+Some of my key achievements at Novara Media include expanding the team, overseeing the transition from being a voluntary enterprise to a full-time professional company as the organisation's first Head of Operations, and later becoming Novara's first North of England Editor. 
 
 I am also the co-host (with Sarah Jaffe) of [Heart Reacts](https://shows.acast.com/heart-reacts), a podcast for people who are trying to live their lives in accordance with their politics. We call it a ‘wager on shared experience’.
 
