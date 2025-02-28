@@ -1,4 +1,4 @@
-I’m a scholar of digital media and culture, and the author of *Cyberboss: The Rise of Algorithmic Management and the New Struggle for Control at Work* (Verso Books).
+I’m a scholar of digital media and culture, and the author of [*Cyberboss: The Rise of Algorithmic Management and the New Struggle for Control at Work*](https://shop.novaramedia.com/products/cyberboss) (Verso Books).
 
 I specialise in researching and writing about the social, political and ethical consequences of the application of digital technology to work, from algorithms and AI to screens to scan-guns. Work is one of the primary ways we interact with informational capitalism, and I aim to ensure labour’s place within analyses of digital society.
 
