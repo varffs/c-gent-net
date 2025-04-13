@@ -1,6 +1,6 @@
-I’m a scholar of digital media and culture, and the author of [*Cyberboss: The Rise of Algorithmic Management and the New Struggle for Control at Work*](https://shop.novaramedia.com/products/cyberboss) (Verso Books).
+I’m a scholar of digital media and culture, and the writer behind [*Cyberboss: The Rise of Algorithmic Management and the New Struggle for Control at Work*](https://shop.novaramedia.com/products/cyberboss) (Verso Books).
 
-I specialise in researching and writing about the social, political and ethical consequences of the application of digital technology to work, from algorithms and AI to screens to scan-guns. Work is one of the primary ways we interact with informational capitalism, and I aim to ensure labour’s place within analyses of digital society.
+I write about the digital technology, technologies of information, and informational capitalism. I often do this through attention to 'work' as a social activity where the political and ethical stakes of screens, scan guns, algorithms, AI, etc can be worked out. Of course, I'm really interested in power, agency, justice.
 
 I have contributed to ethical guidelines for the use of AI in newsrooms at Impress, and I am a research affiliate at the Autonomy Institute. I regularly speak to audiences of people who care about the stakes of AI, algorithmic management, and the digital mediation of work and society. I have written on these topics for Logic(s) magazine, the Ada Lovelace Institute, the Verso blog, and my work on Amazon has been translated into eight languages.
 
