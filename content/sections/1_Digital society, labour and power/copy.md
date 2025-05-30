@@ -1,4 +1,4 @@
-I’m a scholar of digital media and culture, and the writer behind [*Cyberboss: The Rise of Algorithmic Management and the New Struggle for Control at Work*](https://shop.novaramedia.com/products/cyberboss) (Verso Books).
+I’m a scholar of digital media and culture, and the writer behind [*Cyberboss: The Rise of Algorithmic Management and the New Struggle for Control at Work*](https://shop.novaramedia.com/products/cyberboss) (Verso Books), which is coming soon in Korean and Spanish.
 
 I write about the digital technology, technologies of information, and informational capitalism. I often do this through attention to 'work' as a social activity where the political and ethical stakes of screens, scan guns, algorithms, AI, etc can be worked out. Of course, I'm really interested in power, agency, justice.
 
