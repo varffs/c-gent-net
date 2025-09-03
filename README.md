@@ -1,4 +1,4 @@
-This is Craig Gents website
+This is Craig Gent's website
 
 ### Tech
 
