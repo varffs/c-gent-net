@@ -1,1 +1,1 @@
-I'm interested in the use of media to facilite change, community, intersubjectivity and solidarity. I have over ten years’ experience as a media practitioner, including as a senior editor and director at [Novara Media](https://novaramedia.com). 
+I'm interested in the use of media to facilite change, community, intersubjectivity and solidarity. I have fifteen years’ experience as a media practitioner, including as a senior editor and director at [Novara Media](https://novaramedia.com), and I'm a part of the StreamArtNetwork.
