@@ -1,4 +1,4 @@
-I'm interested in the role of media in enabling change, community, intersubjectivity, solidarity. I have over ten years’ experience as a media practitioner, including as a senior editor and director at [Novara Media](https://novaramedia.com), and I'm involved with the StreamArtNetwork. 
+I'm interested in the use of media to facilite change, community, intersubjectivity and solidarity. I have over ten years’ experience as a media practitioner, including as a senior editor and director at [Novara Media](https://novaramedia.com), and I'm a part of the StreamArtNetwork. 
 
 Some of my key achievements at Novara Media include expanding the team, overseeing the transition from being a voluntary enterprise to a full-time professional company as the organisation's first Head of Operations, and later becoming Novara's first North of England Editor. In addition to being a member of the Code Committee of the press regulator Impress, I am a co-opted committee member at the Joseph Rowntree Charitable Trust where I advise on responsible media.
 
