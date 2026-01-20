@@ -1,1 +1,1 @@
-I’m a scholar of digital media and culture at the London School of Economics and Political Science, and the writer behind [*Cyberboss: The Rise of Algorithmic Management and the New Struggle for Control at Work*](https://shop.novaramedia.com/products/cyberboss) (Verso Books).
+I’m a scholar of algorithmic media and culture at the London School of Economics and Political Science, and the writer behind [*Cyberboss: The Rise of Algorithmic Management and the New Struggle for Control at Work*](https://shop.novaramedia.com/products/cyberboss) (Verso Books).
