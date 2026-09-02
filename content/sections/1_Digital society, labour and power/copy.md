@@ -1,6 +1,6 @@
 I'm a Fellow in Media and Communications at the London School of Economics and Political Science, and the writer behind [*Cyberboss: The Rise of Algorithmic Management and the New Struggle for Control at Work*](https://shop.novaramedia.com/products/cyberboss) (Verso Books), which is coming soon in Korean, Spanish, Italian and simplified Chinese.
 
-I write about digital technology and informational capitalism. One way I do this is through attention to 'work' as a social activity where the political and ethical stakes of screens, scan guns, algorithms, AI, etc can be worked out. Of course, I'm really interested in power, agency and justice.
+I write and talk about digital technology and informational capitalism. One way I do this is through attention to work as a social activity where the political and ethical stakes of interfaces, algorithms and AI can be worked out. Of course, I'm really interested in power, agency and justice.
 
 I have contributed to ethical guidelines for the use of AI in newsrooms at Impress, and I am a research affiliate at the Autonomy Institute. I regularly speak to audiences of people who care about the effects of AI, algorithmic management, and the algorithmic mediation of work and society. I have written on these topics for Logic(s) magazine, the Ada Lovelace Institute, the Verso blog, and my work on Amazon has been translated into eight languages.
 
