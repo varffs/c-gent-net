@@ -1,1 +1,1 @@
-I'm a Fellow in Media and Communications at the London School of Economics and Political Science, and the writer behind [*Cyberboss: The Rise of Algorithmic Management and the New Struggle for Control at Work*](https://shop.novaramedia.com/products/cyberboss) (Verso Books).
+I'm an LSE Fellow in Media and Communications at the London School of Economics and Political Science, and the writer behind [*Cyberboss: The Rise of Algorithmic Management and the New Struggle for Control at Work*](https://shop.novaramedia.com/products/cyberboss) (Verso Books).
