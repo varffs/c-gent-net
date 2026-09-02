@@ -1,4 +1,4 @@
-I'm a Fellow in Media and Communications at the London School of Economics and Political Science, and the writer behind [*Cyberboss: The Rise of Algorithmic Management and the New Struggle for Control at Work*](https://shop.novaramedia.com/products/cyberboss) (Verso Books), which is coming soon in Korean, Spanish, Italian and simplified Chinese.
+I'm an LSE Fellow in Media and Communications at the London School of Economics and Political Science, and the writer behind [*Cyberboss: The Rise of Algorithmic Management and the New Struggle for Control at Work*](https://shop.novaramedia.com/products/cyberboss) (Verso Books), which is coming soon in Korean, Spanish, Italian and simplified Chinese.
 
 I write and talk about digital technology and informational capitalism. One way I do this is through attention to work as a social activity where the political and ethical stakes of interfaces, algorithms and AI can be worked out. Of course, I'm really interested in power, agency and justice.
 
